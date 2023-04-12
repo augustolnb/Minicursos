@@ -1,0 +1,1 @@
+contour3(x,y,z,40);
