@@ -1,3 +1,7 @@
+###Minicurso Pyton para Engenharia - 2023
+####Ministrado no IFTO - Campus Palmas durante a V Semana Acadêmica de Engenharia Elétrica
+
+
 
 **Conteúdo Programático**
 
@@ -23,8 +27,6 @@
 	- *Plotar saída de uma função integral ou uma derivada/tangente*
 
 *Desafio: montar método numérico de Gauss, para funções de uma variável*
-
-################################################################
 
 
 ## Porque Python ?
