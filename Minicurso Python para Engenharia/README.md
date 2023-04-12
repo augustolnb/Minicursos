@@ -1,5 +1,5 @@
-###Minicurso Pyton para Engenharia - 2023
-####Ministrado no IFTO - Campus Palmas durante a V Semana Acadêmica de Engenharia Elétrica
+## Minicurso Pyton para Engenharia - 2023
+### Ministrado no IFTO - Campus Palmas durante a V Semana Acadêmica de Engenharia Elétrica
 
 
 
@@ -46,11 +46,17 @@ Integração de componentes: Atualmente o código Python pode chamar bibliotecas
 ## Tipos de dados e tipos numéricos 
 
 Números [int, float, double]
+
 String
+
 Listas
+
 Dicionários
+
 Tuplas
+
 Arquivos
+
 
 
 
@@ -58,32 +64,53 @@ Arquivos
 ## Operadores lógicos e de expressão
 
 **Operadores lógicos:**
+
 	and, or, not
 
 **Operadores algébricos:**
+
 	+  adição
+	
 	-   subtração
+	
 	*   multiplicação
+	
 	/   divisão
+	
 	//  divisão (arrendondada para menos)
-	%  resto da divisão
-	**   exponencial
+	
+	%   resto da divisão
+	
+	**  exponencial
+	
+	
 
 **Operadores relacionais**
-	<     menor que
-	>     maior que
+
+	<   menor que
+	
+	>   maior que
+	
 	<=  menor ou igual
+	
 	>=  maior ou igual
+	
 	==  igualdade
-	!=    desigualdade
+	
+	!=  desigualdade
+	
 
 **Operadores de atribuição**
-	=    atribuição
-	+= atribuição com soma
-	-= atribuição com subtração
-	* = atribuição com multiplicação
-	/= atribuição com divisão
+
+	=   atribuição
 	
+	+=  atribuição com soma
+	
+	-=  atribuição com subtração
+	
+	* = atribuição com multiplicação
+	
+	/=  atribuição com divisão	
 
 
 ## Comandos básicos e controle de fluxo
@@ -116,7 +143,8 @@ Os comandos básicos são:
 		#obrigatório
 
 **for**
-	> O loop for em Python é utilizado para iterar uma sequência. Sequência é uma interface e qualquer objeto que implemente um determinado conjunto de métodos é considerado uma sequência.
+
+O loop for em Python é utilizado para iterar uma sequência. Sequência é uma interface e qualquer objeto que implemente um determinado conjunto de métodos é considerado uma sequência.
 
 	for a in [1, 2, 3, 4, 5, 6, 7, 8, 9, 10]:
 		print(a)
@@ -131,7 +159,8 @@ Os comandos básicos são:
 	break   # interrompe o laço
 
 **for / else**
-	> Em Python é possível específicar um bloco else para a estrutura for. Este bloco só será executado se a lista for percorrida até o final, ou seja, se não ocorrer um break.
+
+Em Python é possível específicar um bloco else para a estrutura for. Este bloco só será executado se a lista for percorrida até o final, ou seja, se não ocorrer um break.
 
 	for x in [1, 3, 5, 7, 9, 10, 11, 13]:
 		if x % 2 == 0:
@@ -141,13 +170,16 @@ Os comandos básicos são:
 	else: 6 print('Não há número par na lista!'
 
 **while**
-	> O loop while em python é bem parecido com o de outras linguagens. Não há do...while em Python.
+
+O loop while em python é bem parecido com o de outras linguagens. Não há do...while em Python.
 
 	while condition:
 		do_something
 
 **switch**
-	> Não há uma expressão switch no Python, no entanto o mesmo resultado pode ser obtido usando um dicionário.
+
+
+Não há uma expressão switch no Python, no entanto o mesmo resultado pode ser obtido usando um dicionário.
 	
 	def str2int(h):
 		return('0':0,
@@ -168,6 +200,7 @@ Os comandos básicos são:
    **Numpy é uma biblioteca de processamento numérico. O objeto principal da NumPy é o array. Ele é um vetor multidimensional homogênio. É como uma tabela de elementos, todos do mesmo tipo, indexados por um conjunto de inteiros positivos.**
 
 ex 1:
+
 	import numpy as np
 
 	pontos = np.array([[1,0,0], [0,1,1]])
