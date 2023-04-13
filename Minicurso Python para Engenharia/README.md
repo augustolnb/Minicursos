@@ -1,4 +1,4 @@
-## Minicurso Pyton para Engenharia - 2023
+## Minicurso Python para Engenharia - 2023
 ### Ministrado no IFTO - Campus Palmas durante a V Semana Acadêmica de Engenharia Elétrica
 
 
